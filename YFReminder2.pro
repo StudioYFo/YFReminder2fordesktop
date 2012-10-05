@@ -30,7 +30,8 @@ SOURCES += main.cpp mainwindow.cpp \
     alldata.cpp \
     settingwindow.cpp \
     remotedatabasemanager.cpp \
-    PublicFunction.cpp
+    PublicFunction.cpp \
+    test.cpp
 HEADERS += mainwindow.h \
     localdatabasefile.h \
     affair.h \
@@ -39,7 +40,8 @@ HEADERS += mainwindow.h \
     alldata.h \
     settingwindow.h \
     remotedatabasemanager.h \
-    PublicFunction.h
+    PublicFunction.h \
+    test.h
 FORMS += mainwindow.ui \
     settingwindow.ui \
     remotedatabasemanager.ui
@@ -55,5 +57,3 @@ win32{
 # Please do not modify the following two lines. Required for deployment.
 include(deployment.pri)
 qtcAddDeployment()
-
-
